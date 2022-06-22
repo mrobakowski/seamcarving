@@ -11,7 +11,7 @@ readme = "README.md"
 edition = "2018"
 
 [dependencies]
-image = "0.23"
+image = { version = "0.24", default-features = false, features = ["jpeg", "png"] }
 num-traits = "0.2"
 
 [dev-dependencies]
